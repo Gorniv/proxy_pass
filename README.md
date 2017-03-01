@@ -7,4 +7,4 @@ nginx proxy_pass docker image
 
 example:
 
-`docker run -p 80:80 --rm -e TARGET_SERVER=hub.docker.com Gorniv/proxy_pass`
+`docker run -p 80:80 --rm -e TARGET_SERVER=hub.docker.com gorniv/proxy_pass`
